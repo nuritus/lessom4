@@ -31,12 +31,12 @@ namespace Ex3
             if (myDelegate is Delegate)
                 Console.WriteLine("myDelegate is Delegate == true");
 
-            //Console.WriteLine(myDelegate(1,1));
+            Console.WriteLine(myDelegate(1,1));
             //myDelegate.Invoke(1, 1);
             //זה מפעיל את כל הפונקציות שבדלגט, עם ובלי הפונקציה
 
-            foreach (someDelegate item in myDelegate.GetInvocationList())
-                Console.WriteLine(item.Invoke(1, 1));
+            //foreach (someDelegate item in myDelegate.GetInvocationList())
+            //    Console.WriteLine(item.Invoke(1, 1));
             /// הלולאה נחוצה על מנת להדפיס
             /// -  ביצוע הפוקנציות נעשה בכל הפעלה של הדלגט,
             /// אבל להדפסה תופעל רק הפעולה האחרונה 

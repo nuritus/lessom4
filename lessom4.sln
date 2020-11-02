@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid10a", "solid10a\solid1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid8", "solid8\solid8.csproj", "{BD46C5E5-9FB1-406C-AB4C-F49F9BC0096B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid8a", "solid8a\solid8a.csproj", "{76312154-FCC1-4EB6-8F35-47FE04DBC7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "solid9a", "solid9a\solid9a.csproj", "{FF54F32A-017A-43BA-831D-3B39DBD8B191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{BD46C5E5-9FB1-406C-AB4C-F49F9BC0096B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD46C5E5-9FB1-406C-AB4C-F49F9BC0096B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD46C5E5-9FB1-406C-AB4C-F49F9BC0096B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76312154-FCC1-4EB6-8F35-47FE04DBC7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76312154-FCC1-4EB6-8F35-47FE04DBC7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76312154-FCC1-4EB6-8F35-47FE04DBC7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76312154-FCC1-4EB6-8F35-47FE04DBC7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF54F32A-017A-43BA-831D-3B39DBD8B191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF54F32A-017A-43BA-831D-3B39DBD8B191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF54F32A-017A-43BA-831D-3B39DBD8B191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF54F32A-017A-43BA-831D-3B39DBD8B191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -35,11 +35,15 @@ namespace solid12
         }
     }
 
+    class Animal { }
+    class Fish : Animal { }
     class Program
     {
         static void Main(string[] args)
         {
-
+            Animal a =new Animal();
+            Fish b = new Fish();
+            GenericWhere1<Animal, Fish > my= new GenericWhere1<Fish,Animal>(b,a);
         }
     }
 }

@@ -11,7 +11,9 @@ namespace solid50
     //define a delegate by codeing the public and delegate
     //keyword ...
     //public delegate returnType DelegateName(parameterlist);
+
     //example
+    
     //דלגט חדש
     public delegate void ChangeHandler(ProductList products);
 
@@ -92,8 +94,6 @@ namespace solid50
 
 
 
-
-
         static void Main(string[] args)
         {
             ProductList prods = new ProductList();
@@ -110,7 +110,7 @@ namespace solid50
             myDelegate(prods);
             Console.WriteLine("after first calling");
             myDelegate += printCount;
-            myDelegate.Invoke(prods);
+            myDelegate(prods);
         }
 
     }

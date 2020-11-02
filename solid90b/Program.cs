@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 /// <summary>
 /// מקביל לדוגמא Ex99
 /// דוגמא לביצוע רפלקציה בפונקציית הרחבה
@@ -42,13 +43,13 @@ namespace solid90b
         PersonName = new Name { FirstName = "ss", LastName = "tt" }
     }
     };
-
+            
             foreach (var item in personList)
             {
                 Console.WriteLine(item);
             }
         }
-
+        
 
     }
 }

@@ -24,17 +24,14 @@ namespace Ex7
         {
             return x % 2 == 0;
         }
-      
+
         static void Main(string[] args)
         {
             List<int> list = new List<int> { 12, 34, 56, 88, 33, 11 };
 
-            conditionDelegate d = condition;
-
-            List<int> newList = getNewList(list, d);
             list.FindAll(condition);
 
-            foreach (int item in  newList) //list.FindAll(condition))
+            foreach (int item in list.FindAll(condition))
             {
                 Console.WriteLine(item);
             }

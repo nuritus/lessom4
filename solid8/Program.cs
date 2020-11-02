@@ -16,10 +16,13 @@ namespace solid8
                 int num = int.Parse(Console.ReadLine());
                 num = 10 / num;
                 Console.WriteLine(num);
+               // throw new FormatException();
+                throw;
             }
             catch (FormatException)
             {
                 Console.WriteLine("The value must be numeric");
+                throw;
             }
             catch (DivideByZeroException)
             {
@@ -30,6 +33,15 @@ namespace solid8
                 Console.WriteLine(ex.GetType());
                 Console.WriteLine(ex.Message); //"מחרוזת קלט לא היתה בתבנית הנכונה"
             }
+           // catch { Console.WriteLine("Error"); }
+                Console.WriteLine("help");
+            }
         }
     }
-}
+
+Enter number:1
+10
+System.FormatException
+אחד הפריטים הניתנים לזיהוי היה בתבנית לא חוקית.
+help
+Press any key to continue . . .

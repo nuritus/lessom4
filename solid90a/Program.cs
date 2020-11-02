@@ -31,7 +31,7 @@ namespace solid90a
             string s = "434";
 
             int x = Tools.ToInt1(s);
-
+            
             int y = s.ToInt2();
             Console.WriteLine("445".ToInt2());
         }
